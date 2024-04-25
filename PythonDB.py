@@ -19,7 +19,7 @@ def loadprops():
         config['SQLDB'] = {'dbserver': 'localhost',
                            'dbname': 'PythonDB',
                            'dbuser': 'sa',
-                           'dbpassword': 'sbdpu2001'}
+                           'dbpassword': 'root'}
         with open(configfile, 'w') as wfile:
             config.write(wfile)
         print('Arquivo carregado')
